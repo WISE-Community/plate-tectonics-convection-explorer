@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ee59d648.chunk.css",
+    "main.js": "./static/js/main.f1631b58.chunk.js",
+    "main.js.map": "./static/js/main.f1631b58.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.1363b30f.js",
+    "runtime-main.js.map": "./static/js/runtime-main.1363b30f.js.map",
+    "static/js/2.87bdd4a5.chunk.js": "./static/js/2.87bdd4a5.chunk.js",
+    "static/js/2.87bdd4a5.chunk.js.map": "./static/js/2.87bdd4a5.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.50d6f3f9dbe8d9a9dfb58ee83129cd92.js": "./precache-manifest.50d6f3f9dbe8d9a9dfb58ee83129cd92.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.ee59d648.chunk.css.map": "./static/css/main.ee59d648.chunk.css.map",
+    "static/js/2.87bdd4a5.chunk.js.LICENSE.txt": "./static/js/2.87bdd4a5.chunk.js.LICENSE.txt",
+    "static/media/App.css": "./static/media/heat.ef28db45.svg",
+    "static/media/continental-continental-convergent1.svg": "./static/media/continental-continental-convergent1.2c51b76b.svg",
+    "static/media/continental-continental-convergent2.svg": "./static/media/continental-continental-convergent2.29e13865.svg",
+    "static/media/continental-continental-convergent3.svg": "./static/media/continental-continental-convergent3.dcdbff75.svg",
+    "static/media/continental-continental-convergent4.svg": "./static/media/continental-continental-convergent4.7e18e5f3.svg",
+    "static/media/continental-continental-divergent1.svg": "./static/media/continental-continental-divergent1.f320cbed.svg",
+    "static/media/continental-continental-divergent2.svg": "./static/media/continental-continental-divergent2.a86761e5.svg",
+    "static/media/continental-continental-divergent3.svg": "./static/media/continental-continental-divergent3.4d8552b2.svg",
+    "static/media/continental-continental-divergent4.svg": "./static/media/continental-continental-divergent4.59bc3277.svg",
+    "static/media/continental-continental.svg": "./static/media/continental-continental.774f968a.svg",
+    "static/media/convection.svg": "./static/media/convection.1ebc75f8.svg",
+    "static/media/convergent.svg": "./static/media/convergent.441179de.svg",
+    "static/media/divergent.svg": "./static/media/divergent.3e4781b1.svg",
+    "static/media/retry.svg": "./static/media/retry.b4728a91.svg",
+    "static/media/start.svg": "./static/media/start.668f985f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1363b30f.js",
+    "static/js/2.87bdd4a5.chunk.js",
+    "static/css/main.ee59d648.chunk.css",
+    "static/js/main.f1631b58.chunk.js"
+  ]
+}
