@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#81D4FA;}
+	.st1{fill:#B71C1C;}
+	.st2{fill:#8D6E63;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#4CAF50;}
+	.st4{fill:#A1887F;}
+	.st5{fill:#A1887F;stroke:#000000;stroke-miterlimit:10;}
+	.st6{stroke:#000000;stroke-miterlimit:10;}
+	.st7{fill:#F9B438;}
+</style>
+<g id="sky">
+	<g>
+		<rect x="0.5" y="0.5" class="st0" width="1919" height="332"/>
+		<path d="M1919,1v331H1V1H1919 M1920,0H0v333h1920V0L1920,0z"/>
+	</g>
+</g>
+<g id="mantle">
+	<g>
+		<rect x="0.5" y="504.5" class="st1" width="1919" height="574.8"/>
+		<path d="M1919,505.2v573.6H1V505.2H1919 M1920,504H0v576h1920V504L1920,504z"/>
+	</g>
+</g>
+<g id="plate">
+	<polygon class="st2" points="975.5,424.5 875.5,425.5 942.5,181.5 1039.5,181.5 	"/>
+	<g>
+		<polygon class="st3" points="-30.5,402.5 -30.5,154.5 937.3,154.5 866.6,402.5 		"/>
+		<path d="M936.7,155l-70.4,247H-30V155H936.7 M938,154H-31v249h898L938,154L938,154z"/>
+	</g>
+	<g>
+		<polygon class="st4" points="884,482.3 855.8,423.3 978,423.5 979.5,482.5 		"/>
+		<path d="M856.6,423.8l120.9,0.2l1.5,58l-94.7-0.2L856.6,423.8 M855,422.8l28.7,60L980,483l-1.5-60L855,422.8L855,422.8z"/>
+	</g>
+	<g>
+		<polygon class="st4" points="976.4,458.5 957.7,399.5 1977.5,399.5 1977.5,458.5 		"/>
+		<path d="M1977,400v58H976.7l-18.4-58H1977 M1978,399H957l19,60h1002V399L1978,399z"/>
+	</g>
+	<g>
+		<polygon class="st3" points="1028.4,148.5 1978.5,148.5 1978.5,396.5 957.7,398.5 		"/>
+		<path d="M1978,149v247l-1019.7,2l70.4-249H1978 M1979,148h-951l-71,251l1022-2V148L1979,148z"/>
+	</g>
+	<g>
+		<polygon class="st4" points="-30.5,462.5 -30.5,403.5 865.6,403.5 885.3,462.5 		"/>
+		<path d="M865.3,404l19.3,58H-30v-58H865.3 M866,403H-31v60h917L866,403L866,403z"/>
+	</g>
+	<g>
+		<polygon class="st4" points="-152.5,519.5 -152.5,460.5 927.6,460.5 947.3,519.5 		"/>
+		<path d="M927.2,461l19.4,58H-152v-58H927.2 M928,460H-153v60H948L928,460L928,460z"/>
+	</g>
+	<g>
+		<polygon class="st4" points="945.4,519.5 926.7,460.5 2048.5,460.5 2048.5,519.5 		"/>
+		<path d="M2048,461v58H945.8l-18.4-58H2048 M2049,460H926l19,60h1104V460L2049,460z"/>
+	</g>
+	<polygon class="st5" points="873.5,425.5 866.2,401.8 938.5,153.5 946.5,182.5 	"/>
+</g>
+<g id="arrow">
+	<polygon class="st6" points="1307.5,278.7 1307.4,260 1337.1,258.3 1336.4,242.1 1378.5,264.8 1338.6,293.6 1337.9,277.4 	"/>
+	<polygon class="st6" points="488.9,258.9 487.5,277.6 457.8,277 457.2,293.2 417,267.3 459,241.7 458.5,257.9 	"/>
+	<polygon class="st6" points="1164.5,497.4 1164.4,478.7 1194.1,476.9 1193.4,460.8 1235.5,483.5 1195.6,512.2 1194.9,496.1 	"/>
+	<polygon class="st6" points="621.1,478 619.7,496.7 590,496.1 589.5,512.3 549.3,486.4 591.3,460.8 590.7,477 	"/>
+</g>
+<path class="st7" d="M1918.5,1033.3c-260.1-22-594.6-35.3-959.5-35.3s-699.5,13.3-959.5,35.3v95.7h1919V1033.3z"/>
+</svg>
