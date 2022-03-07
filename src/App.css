@@ -1,4 +1,8 @@
-#root {
+body {
+  margin: 0;
+}
+
+.Wrap {
   width: 100%;
   position: relative;
   padding-top: 66.67%;

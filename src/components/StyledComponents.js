@@ -1,14 +1,5 @@
 import styled, { css } from 'styled-components';
 
-const AppWrapper = styled.div`
-  ${(props) => {
-    return css`
-      max-width: ${`${props.maxWidth}px`};
-      max-height: ${`${props.maxHeight}px`};
-    `;
-  }}
-`;
-
 const Label = styled.p`
   ${(props) => {
     return css`
@@ -29,4 +20,4 @@ const ButtonLabel = styled.p`
   }}
 `;
 
-export { AppWrapper, Label, ButtonLabel };
+export { Label, ButtonLabel };

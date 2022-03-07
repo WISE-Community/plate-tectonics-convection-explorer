@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import { AppWrapper } from './components/StyledComponents';
 import Background from './components/Background';
 import ControlPanel from './components/ControlPanel';
 import {
@@ -75,30 +74,39 @@ function App() {
     if (screenState === SCREEN_STATES.canStart) startRetryButton = Start;
     else if (screenState === SCREEN_STATES.canRetry) startRetryButton = Retry;
     return (
-      <AppWrapper maxWidth={maxWidth} maxHeight={maxHeight} className="App">
-        <ControlPanel
-          onClick={onControlButtonClicked}
-          boundaryState={boundaryState}
-          maxWidth={maxWidth}
-        />
-        <div className="ControlButtons" hidden={screenState === SCREEN_STATES.realExampleSelection}>
-          <button
-            onClick={onStartRetryClicked}
-            aria-label="Play"
-            hidden={
-              screenState !== SCREEN_STATES.canStart && screenState !== SCREEN_STATES.canRetry
-            }
-          >
-            <img className="ResizingButtons" src={startRetryButton} alt="Play" />
-          </button>
+      <>
+        <div style={{ maxWidth: `${maxWidth}px`, margin: '0 auto' }}>
+          <div className="Wrap">
+            <div style={{ maxWidth: `${maxWidth}px`, maxHeight: `${maxHeight}px` }} className="App">
+              <ControlPanel
+                onClick={onControlButtonClicked}
+                boundaryState={boundaryState}
+                maxWidth={maxWidth}
+              />
+              <div
+                className="ControlButtons"
+                hidden={screenState === SCREEN_STATES.realExampleSelection}
+              >
+                <button
+                  onClick={onStartRetryClicked}
+                  aria-label="Play"
+                  hidden={
+                    screenState !== SCREEN_STATES.canStart && screenState !== SCREEN_STATES.canRetry
+                  }
+                >
+                  <img className="ResizingButtons" src={startRetryButton} alt="Play" />
+                </button>
+              </div>
+              <Background
+                plateState={plateState}
+                boundaryState={boundaryState}
+                frame={animationFrame}
+                maxWidth={maxWidth}
+              />
+            </div>
+          </div>
         </div>
-        <Background
-          plateState={plateState}
-          boundaryState={boundaryState}
-          frame={animationFrame}
-          maxWidth={maxWidth}
-        />
-      </AppWrapper>
+      </>
     );
   }
 
