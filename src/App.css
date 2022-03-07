@@ -17,8 +17,6 @@
   left: 0;
   bottom: 0;
   right: 0;
-  max-width: 1200px;
-  max-height: 800px;
   margin: 0 auto;
 }
 
@@ -114,12 +112,6 @@
 .Label, .HeatLabel {
   font-size: 2vw;
   position: absolute;
-}
-
-@media (min-width: 1280px) {
-  .Label, .HeatLabel {
-    font-size: 1.7rem;
-  }
 }
 
 .HeatBottom {
@@ -326,12 +318,6 @@
   left: 0;
   right: 0;
   top: 0;
-}
-
-@media (min-width: 1280px) {
-  .Button > * {
-    font-size: 1.25rem;
-  }
 }
 
 .Button > img {

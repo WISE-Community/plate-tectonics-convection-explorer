@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 Button.propTypes = {
   hide: PropTypes.bool,
-  className: PropTypes.string = '',
   selected: PropTypes.bool,
   background: PropTypes.string,
   disabled: PropTypes.bool,
@@ -16,7 +15,7 @@ function Button(props) {
   const style = props.style ? props.style : null;
   return (
     <button
-      className={`Button ${props.className ? props.className : ''} ${props.disabled ? '' : 'ButtonClickable'}
+      className={`Button ${props.disabled ? '' : 'ButtonClickable'}
           ${props.selected ? 'SelectedButton' : ''}`}
       style={{
         backgroundImage: props.background ? `url(${props.background})` : null,

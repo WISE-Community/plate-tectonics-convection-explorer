@@ -9,13 +9,16 @@ import {
   backgroundForState
 } from '../State';
 import Convection from './backgrounds/convection.svg';
+import { Label } from './StyledComponents';
 
 Background.propTypes = {
   hide: PropTypes.bool,
   plateState: PropTypes.oneOf(['', ...INIT_PLATE_STATES, ...END_PLATE_STATES]),
   boundaryState: PropTypes.oneOf(['', ...BOUNDARY_STATES]),
-  frame: PropTypes.number
+  frame: PropTypes.number,
+  maxWidth: PropTypes.number
 };
+
 function Background(props) {
   if (props.hide) return null;
 
@@ -41,15 +44,15 @@ function Background(props) {
           />
           {isConvergent ? (
             <React.Fragment>
-              <p className="HeatLabel Hot HeatBottom HeatLeft">{LABELS.hot}</p>
-              <p className="HeatLabel Hot HeatBottom HeatRight">{LABELS.hot}</p>
-              <p className="HeatLabel Cold HeatTop HeatCenter">{LABELS.cold}</p>
+              <Label maxWidth={props.maxWidth} className="HeatLabel Hot HeatBottom HeatLeft">{LABELS.hot}</Label>
+              <Label maxWidth={props.maxWidth} className="HeatLabel Hot HeatBottom HeatRight">{LABELS.hot}</Label>
+              <Label maxWidth={props.maxWidth} className="HeatLabel Cold HeatTop HeatCenter">{LABELS.cold}</Label>
             </React.Fragment>
           ) : (
             <React.Fragment>
-              <p className="HeatLabel Cold HeatTop HeatLeft">{LABELS.cold}</p>
-              <p className="HeatLabel Cold HeatTop HeatRight">{LABELS.cold}</p>
-              <p className="HeatLabel Hot HeatBottom HeatCenter">{LABELS.hot}</p>
+              <Label maxWidth={props.maxWidth} className="HeatLabel Cold HeatTop HeatLeft">{LABELS.cold}</Label>
+              <Label maxWidth={props.maxWidth} className="HeatLabel Cold HeatTop HeatRight">{LABELS.cold}</Label>
+              <Label maxWidth={props.maxWidth} className="HeatLabel Hot HeatBottom HeatCenter">{LABELS.hot}</Label>
             </React.Fragment>
           )}
         </React.Fragment>
@@ -57,10 +60,10 @@ function Background(props) {
 
       {hidePlateState ? null : (
         <React.Fragment>
-          <p className="Label LabelLeft">{LABELS.crust}</p>
-          <p className="Label LabelRight">{LABELS.crust}</p>
-          <p className="Label LabelMantle">{LABELS.mantle}</p>
-          <p className="Label LabelCore">{LABELS.core}</p>
+          <Label maxWidth={props.maxWidth} className="Label LabelLeft">{LABELS.crust}</Label>
+          <Label maxWidth={props.maxWidth} className="Label LabelRight">{LABELS.crust}</Label>
+          <Label maxWidth={props.maxWidth} className="Label LabelMantle">{LABELS.mantle}</Label>
+          <Label maxWidth={props.maxWidth} className="Label LabelCore">{LABELS.core}</Label>
           <img
             className="Background"
             src={backgroundForState(props.plateState, props.frame)}
